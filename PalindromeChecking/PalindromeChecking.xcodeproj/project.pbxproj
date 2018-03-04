@@ -14,6 +14,7 @@
 		1122E31E2039CB5100070BAE /* Character+IsNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122E31D2039CB5100070BAE /* Character+IsNumber.swift */; };
 		1122E3202039CBA200070BAE /* Character+Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122E31F2039CBA200070BAE /* Character+Equal.swift */; };
 		1122E3252039CC8A00070BAE /* Character+isLetterOrNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122E3242039CC8A00070BAE /* Character+isLetterOrNumber.swift */; };
+		1190A427204BE9F8009BD9EA /* String+Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1190A426204BE9F8009BD9EA /* String+Iterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		1122E31D2039CB5100070BAE /* Character+IsNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+IsNumber.swift"; sourceTree = "<group>"; };
 		1122E31F2039CBA200070BAE /* Character+Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Equal.swift"; sourceTree = "<group>"; };
 		1122E3242039CC8A00070BAE /* Character+isLetterOrNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+isLetterOrNumber.swift"; sourceTree = "<group>"; };
+		1190A426204BE9F8009BD9EA /* String+Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Iterator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1122E3212039CBBA00070BAE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				1190A425204BE9E8009BD9EA /* String */,
 				1122E3262039CCDF00070BAE /* StringIterator */,
 				1122E3232039CBED00070BAE /* Character */,
 			);
@@ -110,6 +113,14 @@
 				1122E3192039CAD500070BAE /* StringIterator+Compare.swift */,
 			);
 			path = StringIterator;
+			sourceTree = "<group>";
+		};
+		1190A425204BE9E8009BD9EA /* String */ = {
+			isa = PBXGroup;
+			children = (
+				1190A426204BE9F8009BD9EA /* String+Iterator.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				1122E3112039CA6D00070BAE /* main.swift in Sources */,
 				1122E3202039CBA200070BAE /* Character+Equal.swift in Sources */,
 				1122E31A2039CAD500070BAE /* StringIterator+Compare.swift in Sources */,
+				1190A427204BE9F8009BD9EA /* String+Iterator.swift in Sources */,
 				1122E3182039CA8A00070BAE /* StringIterator.swift in Sources */,
 				1122E31C2039CB4600070BAE /* Character+IsLetter.swift in Sources */,
 				1122E3252039CC8A00070BAE /* Character+isLetterOrNumber.swift in Sources */,

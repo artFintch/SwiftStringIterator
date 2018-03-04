@@ -11,8 +11,8 @@ import Foundation
 func isPalindrom(_ input: String) -> Bool {
     guard !input.isEmpty else { return true }
     
-    let left = StringIterator(input, index: input.startIndex)
-    let right = StringIterator(input, index: input.endIndex)
+    let left = input.iterator(input.startIndex)
+    let right = input.iterator(input.endIndex)
     --right
     
     while left < right {
