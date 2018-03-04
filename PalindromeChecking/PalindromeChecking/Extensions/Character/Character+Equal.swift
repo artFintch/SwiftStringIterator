@@ -10,6 +10,8 @@ import Foundation
 
 extension Character {
     func isCaseInsensitiveEqual(_ another: Character) -> Bool {
-        return String(self).lowercased() == String(another).lowercased()
+        let selfString = String(self)
+        let anotherString = String(another)
+        return (selfString.caseInsensitiveCompare(anotherString) == .orderedSame)
     }
 }
